@@ -1,10 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="page">
+      <header-top />
+      <div class="page-content d-flex align-items-stretch">
+        <side-bar />
+
+        <div class="content-inner">
+          <router-view />
+          <footer-bottom />
+        </div>
+      </div>
     </div>
-    <router-view />
   </div>
 </template>
 
+<script>
+import FooterBottom from "./components/layout/FooterBottom.vue";
+import HeaderTop from "./components/layout/HeaderTop.vue";
+import SideBar from "./components/layout/SideBar.vue";
+export default {
+  components: { SideBar, HeaderTop, FooterBottom },
+  data() {},
+};
+</script>
+
+<style
+  lang="css"
+  src="@/assets/icons/lineawesome/css/line-awesome.min.css"
+></style>
+<style lang="css" src="@/assets/icons/ionicons/css/ionicons.min.css"></style>
+<style
+  lang="css"
+  src="@/assets/icons/themify/css/themify-icons.min.css"
+></style>
