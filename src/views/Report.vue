@@ -7,7 +7,7 @@
           <h2 class="page-header-title">캠페인 리포트</h2>
           <ul class="breadcrumb">
             <li class="breadcrumb-item">
-              <a href="index.html"><i class="ti ti-home"></i></a>
+              <a href="/"><i class="ti ti-home"></i></a>
             </li>
             <li class="breadcrumb-item"><a href="#">리포트</a></li>
             <li class="breadcrumb-item active">캠페인 리포트</li>
