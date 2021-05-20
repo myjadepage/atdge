@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
-  publicPath: "/atdge/"
+  publicPath: "/admin/"
 };
+//git subtree push --prefix dist origin gh-pages
