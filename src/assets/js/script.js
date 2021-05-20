@@ -1,7 +1,7 @@
 export default () => {
   let menuBtn = document.body.querySelector(".menu-btn");
   let sideNavbar = document.body.querySelector(".side-navbar");
-  let containerInner = document.body.querySelector(".container-inner");
+  let containerInner = document.body.querySelector(".content-inner");
   menuBtn.addEventListener("click", function () {
     if (this.classList.contains("active")) {
       this.classList.remove("active");

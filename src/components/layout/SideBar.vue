@@ -5,6 +5,9 @@
       <!-- Begin Main Navigation -->
       <ul class="list-unstyled">
         <li>
+          <router-link to="/">캠페인 리포트</router-link>
+        </li>
+        <li>
           <a href="/" aria-expanded="true" data-toggle="collapse">
             <i class="la la-columns"></i><span>리포트</span>
           </a>
@@ -18,6 +21,9 @@
 
       <ul class="list-unstyled">
         <li>
+          <router-link to="/CampMake">캠페인 만들기</router-link>
+        </li>
+        <li>
           <a href="/CampMake" aria-expanded="false" data-toggle="collapse">
             <i class="la la-share-alt"></i><span>캠페인 생성</span>
           </a>
@@ -30,6 +36,9 @@
       </ul>
 
       <ul class="list-unstyled">
+        <li>
+          <router-link to="/CampPage">캠페인 리스트</router-link>
+        </li>
         <li>
           <a href="/CampPage" aria-expanded="false" data-toggle="collapse">
             <i class="la la-comments"></i><span>캠페인 페이지</span>
