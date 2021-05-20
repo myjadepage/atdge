@@ -15,12 +15,16 @@
 </template>
 
 <script>
+import commonScript from "@/assets/js/script.js";
 import FooterBottom from "./components/layout/FooterBottom.vue";
 import HeaderTop from "./components/layout/HeaderTop.vue";
 import SideBar from "./components/layout/SideBar.vue";
 export default {
   components: { SideBar, HeaderTop, FooterBottom },
   data() {},
+  mounted() {
+    commonScript();
+  },
 };
 </script>
 
